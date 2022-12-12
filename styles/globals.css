@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url('https://www.pikpng.com/pngl/b/473-4730395_clouds-royalty-free-blue-sky-clipart.png');
+  background-size: cover;
+
+
+}
+
+.Cloudy {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.DogForm{
+  width: 500px;
+}
+
+h1{
+  text-shadow: 1px 1px 2px black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
